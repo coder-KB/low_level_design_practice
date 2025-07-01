@@ -7,8 +7,8 @@ import Utility.Position;
 import java.util.Scanner;
 
 public class HumanStrategy implements PlayerStrategy {
-    private Scanner scanner;
-    private String playerName;
+    private final Scanner scanner;
+    private final String playerName;
 
     public HumanStrategy(String playerName) {
         this.playerName = playerName;
